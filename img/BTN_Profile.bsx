@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <projectname>BTN_Profile</projectname>
+  <menualignmenttype>0</menualignmenttype>
+  <menumargin>2</menumargin>
+  <menusavefolder>
+  </menusavefolder>
+  <menusaveformat>1</menusaveformat>
+  <menuseparatorimage>&lt;standard&gt;</menuseparatorimage>
+  <menubuttonarrowimage>&lt;standard&gt;</menubuttonarrowimage>
+  <menusubmenuarrowimage>&lt;standard&gt;</menusubmenuarrowimage>
+  <usemenubuttonarrowimage>True</usemenubuttonarrowimage>
+  <usemenusubmenuarrowimage>True</usemenusubmenuarrowimage>
+  <menupadding>2</menupadding>
+  <menubackgroundcolor>255, 255, 255, 255</menubackgroundcolor>
+  <menuborderwidth>1</menuborderwidth>
+  <menubordercolor>255, 128, 128, 128</menubordercolor>
+  <menuitempadding>2</menuitempadding>
+  <menuitemborderwidth>1</menuitemborderwidth>
+  <menunormalfont>Tahoma</menunormalfont>
+  <menunormalsize>11</menunormalsize>
+  <menunormalbold>False</menunormalbold>
+  <menunormalitalic>False</menunormalitalic>
+  <menunormalunderline>False</menunormalunderline>
+  <menunormalfontcolor>255, 0, 0, 0</menunormalfontcolor>
+  <menunormalbordercolor>255, 255, 255, 255</menunormalbordercolor>
+  <menunormalbackgroundcolor>255, 255, 255, 255</menunormalbackgroundcolor>
+  <menumouseoverfont>Tahoma</menumouseoverfont>
+  <menumouseoversize>11</menumouseoversize>
+  <menumouseoverbold>False</menumouseoverbold>
+  <menumouseoveritalic>False</menumouseoveritalic>
+  <menumouseoverunderline>False</menumouseoverunderline>
+  <menumouseoverfontcolor>255, 0, 0, 0</menumouseoverfontcolor>
+  <menumouseoverbordercolor>255, 190, 210, 214</menumouseoverbordercolor>
+  <menumouseoverbackgroundcolor>255, 214, 238, 244</menumouseoverbackgroundcolor>
+  <buttons>
+    <button>
+      <buttontemplate>
+        <templatename>SAVE DATA</templatename>
+        <customtemplatename>False</customtemplatename>
+        <customname>False</customname>
+        <customtemplate>True</customtemplate>
+        <text>SAVE DATA</text>
+        <font>Tahoma, 14, 1</font>
+        <textcolor>255, 0, 0, 0</textcolor>
+        <textpositionalign>2</textpositionalign>
+        <textpositionvalign>1</textpositionvalign>
+        <textoffsetx>-5</textoffsetx>
+        <textoffsety>2</textoffsety>
+        <textoutline>False</textoutline>
+        <textoutlinesize>1</textoutlinesize>
+        <usetextshadow>False</usetextshadow>
+        <textshadowposx>1</textshadowposx>
+        <textshadowposy>1</textshadowposy>
+        <textshadowcolor>255, 0, 0, 0</textshadowcolor>
+        <textshadowalphablending>100</textshadowalphablending>
+        <buttonautosize>False</buttonautosize>
+        <buttonheight>29</buttonheight>
+        <buttonwidth>139</buttonwidth>
+        <roundedcornerradius>20</roundedcornerradius>
+        <buttontype>0</buttontype>
+        <colortype>0</colortype>
+        <buttonstartcolor>255, 255, 255, 255</buttonstartcolor>
+        <buttonendcolor>255, 198, 197, 215</buttonendcolor>
+        <buttongradientdirection>0</buttongradientdirection>
+        <texturewrapmode>0</texturewrapmode>
+        <textureimage>
+        </textureimage>
+        <textureoriginalpicture>
+        </textureoriginalpicture>
+        <texturerandomizedpicture>
+        </texturerandomizedpicture>
+        <texturerandomize>False</texturerandomize>
+        <texturewidth>100</texturewidth>
+        <textureheight>100</textureheight>
+        <texturehue>0</texturehue>
+        <glossytype>0</glossytype>
+        <buttonglossycolor>255, 255, 255, 255</buttonglossycolor>
+        <buttonglossyalphablending>67</buttonglossyalphablending>
+        <usebuttonshadow>False</usebuttonshadow>
+        <buttonshadowposx>2</buttonshadowposx>
+        <buttonshadowposy>2</buttonshadowposy>
+        <buttonshadowcolor>255, 0, 0, 0</buttonshadowcolor>
+        <buttonshadowalphablending>50</buttonshadowalphablending>
+        <usebuttonglow>False</usebuttonglow>
+        <buttonglowcolor>255, 255, 0, 0</buttonglowcolor>
+        <buttonglowsize>5</buttonglowsize>
+        <usebuttonstroke>True</usebuttonstroke>
+        <buttonstrokecolor>255, 0, 60, 116</buttonstrokecolor>
+        <buttonstrokesize>1</buttonstrokesize>
+        <usepulsing>False</usepulsing>
+        <usegrayscale>False</usegrayscale>
+        <iconfilename>D:\Bit\Elements of Design  Png\Icon\IconExperience.All.Collections.1-6.True.Retail.WinALL\Collection.1.Application.Basics\24x24\shadow\check.png</iconfilename>
+        <iconoriginalpicture>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</iconoriginalpicture>
+        <iconpositionalign>0</iconpositionalign>
+        <iconalphablending>100</iconalphablending>
+        <iconoffsetx>3</iconoffsetx>
+        <iconoffsety>0</iconoffsety>
+        <useiconshadow>False</useiconshadow>
+        <iconshadowposx>1</iconshadowposx>
+        <iconshadowposy>1</iconshadowposy>
+        <iconshadowcolor>255, 0, 0, 0</iconshadowcolor>
+        <iconshadowalphablending>50</iconshadowalphablending>
+        <usebuttoninnerstroke>False</usebuttoninnerstroke>
+        <buttoninnerstrokecolor>255, 255, 215, 0</buttoninnerstrokecolor>
+        <buttoninnerstrokesize>2</buttoninnerstrokesize>
+        <usebuttonlighteffect>False</usebuttonlighteffect>
+        <buttonlighteffectcolor>255, 255, 165, 0</buttonlighteffectcolor>
+        <buttonlighteffectalphablending>100</buttonlighteffectalphablending>
+        <usetextrotation>False</usetextrotation>
+        <textrotationdegree>45</textrotationdegree>
+        <buttonlighteffecthorizontal>50</buttonlighteffecthorizontal>
+        <buttonlighteffectvertical>100</buttonlighteffectvertical>
+        <usemirroreffect>False</usemirroreffect>
+        <mirroreffectheight>40</mirroreffectheight>
+        <mirroreffectdistance>0</mirroreffectdistance>
+        <resizeicon>False</resizeicon>
+        <iconresizewidth>32</iconresizewidth>
+        <iconresizeheight>32</iconresizeheight>
+        <glossadjust>False</glossadjust>
+        <glossinflate>2</glossinflate>
+        <glossheight>50</glossheight>
+        <glossinvert>False</glossinvert>
+        <usebuttonimage>False</usebuttonimage>
+        <buttonimagefilename>
+        </buttonimagefilename>
+        <buttonimageoriginalpicture>
+        </buttonimageoriginalpicture>
+        <buttonimagehue>0</buttonimagehue>
+        <menulink>
+        </menulink>
+        <menulinktarget>
+        </menulinktarget>
+        <menuhint>
+        </menuhint>
+        <backgroundtype>2</backgroundtype>
+        <backgroundstartcolor>255, 255, 255, 255</backgroundstartcolor>
+        <backgroundendcolor>255, 255, 255, 255</backgroundendcolor>
+        <backgroundgradientdirection>0</backgroundgradientdirection>
+        <backgroundtexturewrapmode>0</backgroundtexturewrapmode>
+        <backgroundtextureimage>
+        </backgroundtextureimage>
+        <backgroundtextureoriginalpicture>
+        </backgroundtextureoriginalpicture>
+        <backgroundtexturewidth>100</backgroundtexturewidth>
+        <backgroundtextureheight>100</backgroundtextureheight>
+        <backgroundtexturehue>0</backgroundtexturehue>
+      </buttontemplate>
+    </button>
+  </buttons>
+</project>

@@ -1,0 +1,112 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="HR_Profile.master.cs" Inherits="HR_EmpProfile.HR_Profile" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>HR - Employee Proflie</title>
+    <link href="HR.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">  
+    div.RadMenu {  
+        float: right;  
+    }  
+</style>
+</head>
+<body style="margin:0;font-family:Tahoma;background-image: url('img/squairy_light.png')">
+    <form id="form1" runat="server">
+    <telerik:RadScriptManager ID="RadScriptManager1" runat="server">
+    </telerik:RadScriptManager>
+    <div align="center" style="padding:20px 0 0 20px;">
+     <table border="0" cellpadding="0" cellspacing="0" width="1100px">
+     <tr>
+     <td align="left" style="width:350px;"><img src="img/logo.png" width="280px" height="70px" /></td>
+     <td align="right" style="width:750px;">
+         <telerik:RadMenu ID="RadMenu1" Runat="server" Skin="Metro" Width="350px" 
+             Height="50px">
+             <Items>
+                 <telerik:RadMenuItem runat="server" NavigateUrl="~/ProfileInquiry.aspx">
+                     <Items>
+                         <telerik:RadMenuItem runat="server" NavigateUrl="~/ProfilePage.aspx" 
+                             Text="Information">
+                         </telerik:RadMenuItem>
+                         <telerik:RadMenuItem runat="server" Text="Education" 
+                             NavigateUrl="~/ProfileEducation.aspx">
+                         </telerik:RadMenuItem>
+
+                          <telerik:RadMenuItem runat="server" Text="Training" 
+                             NavigateUrl="~/ProfileTraining.aspx">
+                         </telerik:RadMenuItem>
+
+                         <telerik:RadMenuItem runat="server" Text="Employment History" 
+                             NavigateUrl="~/ProfileEmpHistory.aspx">
+                         </telerik:RadMenuItem>
+
+                         <telerik:RadMenuItem runat="server" Text="General Information" 
+                             NavigateUrl="~/ProfileGeneral.aspx">
+                         </telerik:RadMenuItem>
+
+                          <telerik:RadMenuItem runat="server" Text="References" 
+                             NavigateUrl="~/ProfileReferences.aspx">
+                         </telerik:RadMenuItem>
+
+                         <telerik:RadMenuItem runat="server" Text="Salary" 
+                             NavigateUrl="~/ProfileSalary.aspx">
+                         </telerik:RadMenuItem>
+
+                               <telerik:RadMenuItem runat="server" Text="Health" 
+                             NavigateUrl="~/ProfileHealth.aspx">
+                         </telerik:RadMenuItem>
+
+                             <telerik:RadMenuItem runat="server" Text="Evaluation" 
+                             NavigateUrl="~/ProfileEva.aspx">
+                         </telerik:RadMenuItem>
+
+                         <telerik:RadMenuItem runat="server" NavigateUrl="~/ProfileWarning.aspx" 
+                             Text="Warning">
+                         </telerik:RadMenuItem>
+
+                     </Items>
+                     <ItemTemplate>
+                  
+                        <table border="0" cellpadding="0" cellspacing="0" width="350px" style="height:50px;">
+                        <tr>
+                        <td style="width:260px;" align="right">
+                         <div style="padding-left:10px;">
+                               
+                                <asp:HyperLink
+                                    ID="lblUser" runat="server" Font-Bold="true" ForeColor="White" Font-Size="12px" Font-Underline="false"></asp:HyperLink>
+                                 <div style="padding-right:10px;">
+                         </td>
+                        <td style="width:60px;" align="center">
+                           <div style="padding-right:10px;">
+                            <asp:Image ID="imgPro" runat="server" Width="50px" Height="45px" /></td>
+                               <div style="padding-right:10px;">
+                        </tr>
+                        </table>
+                    
+                     </ItemTemplate>
+                 </telerik:RadMenuItem>
+
+             </Items>
+         </telerik:RadMenu>
+         </td>
+     </tr>
+     </table>
+      
+        
+     
+    <div style="width:1100px; border:solid 1px #000000;background-color:#ffffff;height:700px">
+  <div style="padding:10px 10px 10px 10px;background-image:url(img/p6.png);">
+        <asp:ContentPlaceHolder ID="body" runat="server">
+
+        </asp:ContentPlaceHolder>
+ </div>
+
+ </div>
+     </form>
+</body>
+</html>
